@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html  lang ="pt-br" >
+<head >
+    <meta  charset =" UTF-8 " >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta  name =" viewport " content =" largura=largura do dispositivo, escala inicial=1.0 " >
+    <title >Meteoro Marinho (+16) </title >
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head >
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <a  href =" index.html "> PÁGINA INICIAL </a>
+            </li>
+            <li>
+                <a  href ="pacotes.html " rel =" próximo " > PACOTES</a>
+            </li>
+            <li>
+                <a  href ="clientes.html "> CLIENTES</a>
+                <ul>
+                    <li> <a  href ="juras.html "> JURÁSSICO </a> </li>
+                    <li> <a  href ="celebridades.html "> CELEBRIDADES </a > </li>
+                </ul>
+            </li>
+            <li> <a  href ="regras.html " > REGRAS DA AGÊNCIA</a> </li>    
+        </ul>
+    </nav>        
+
+    <div  class =" vazio ">
+    </div>
+    <form>
+        
+        <fieldset>
+
+            <legend>Cadastre para comprar seu pacote</legend>
+                
+            <label>Qual pacote vc deseja?</label>
+            <br>
+            <input type="radio" name="qual" id="idPai"><label for="idCu">Cobre</label>
+            <br>
+            <input type="radio" name="qual" id="idAul"><label for="idAg">Prata</label>
+            <br>
+            <input type="radio" name="qual" id="idAul"><label for="idAu">Ouro</label>
+
+        </fieldset>
+    
+        <fieldset>
+
+            <legend>Cadastro</legend>
+
+            <p><label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" size="40"
+                    placeholder="Nome Completo"></p>
+            <p><label for="idNasc">Data de nascimento:</label><input type="date" name="nNascimento" id="idNasc"></p>
+            <p><label for="idcSenha"></label><input type="password" name="ncSenha" id="idcSenha"></p>
+              
+
+                <p><label for="idEmail">email:</label><input type="email" name="nEmail" id="idEmail"
+                        placeholder="exemplo@gmail.com"></p>
+
+
+                <p><label for="idNum">Numero de pessoas</label><input type="num" min="0" max="1000000" name="nValor" id="idNum"
+                        placeholder="Numero inteiro"></p>
+
+                <label for="idopt">Forma de pagamento:</label>
+                <select name="opt" id="idopt">
+
+                    <option value="d">Dinheiro</option>
+
+                    <option value="p">Pix</option>
+
+                    <option value="c">Cartão</option>
+
+                    <option value="b">Boquete</option>
+
+                    <option value="x">Xerecard</option>
+                </select>
+                <br>
+
+            <p><label for="idSug">Alergias e fobias do membros que iram para a viagem:</label><br><textarea type="text" cols="70" rows="5" name="nSugestao" id="idSug" placeholder="Informação necessaria para evitar acidentes desnecenarios :)"></textarea></p>
+        
+        </fieldset>
+
+       
+    </form>
+</body>
+</body>
+</html>
