@@ -11,9 +11,9 @@
 <body>
 <script>
             function discente() {
-                var minimo=window.confirm("Você pretende causa algum problema para a nossa companhia depois de efetuar a compra de algum pacote?");
+                var minimo=window.confirm("Você tem consiência de que se você nos causar algum problema iremos utilizar nosso contatos para lhe provar sua alergia à bala de fogo");
                 if(minimo){
-                    window.alert("Agradecemos pelo mínimo :)")
+                    window.alert("Agradecemos pelo mínimo")
                 }
                 else{
                     window.location.href="imagens/igorcuzao.jpg"
@@ -21,8 +21,8 @@
 }
             discente();
 </script>
-    <nav>
-        <ul>
+    <nav class="v">
+        <ul class="menu">
             <li>
                 <a href="index.html">PÁGINA INICIAL</a>
             </li>
@@ -42,6 +42,7 @@
 
     <div class="vazio">
     </div>
+    <main>
     <form>
         
         <fieldset>
@@ -50,12 +51,11 @@
                 
             <label>Qual pacote vc deseja?</label>
             <br>
-            <input type="radio" name="qual" id="idPai"><label for="idCu">Cobre</label>
+            <input type="radio" name="qual" id="idCu"><label for="idCu">Cobre</label>
             <br>
-            <input type="radio" name="qual" id="idAul"><label for="idAg">Prata</label>
+            <input type="radio" name="qual" id="idAg"><label for="idAg">Prata</label>
             <br>
-            <input type="radio" name="qual" id="idAul"><label for="idAu">Ouro</label>
-
+            <input type="radio" name="qual" id="idAu"><label for="idAu">Ouro</label>
         </fieldset>
     
         <fieldset>
@@ -65,7 +65,7 @@
             <p><label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" size="40"
                     placeholder="Nome Completo"></p>
             <p><label for="idNasc">Data de nascimento:</label><input type="date" name="nNascimento" id="idNasc"></p>
-            <p><label for="idcSenha"></label><input type="password" name="ncSenha" id="idcSenha"></p>
+            <p><label for="idcSenha">Senha:</label><input type="password" name="ncSenha" id="idcSenha"></p>
               
 
                 <p><label for="idEmail">email:</label><input type="email" name="nEmail" id="idEmail"
@@ -96,6 +96,7 @@
 
        
     </form>
+    </main>
 </body>
 </body>
 </html>
